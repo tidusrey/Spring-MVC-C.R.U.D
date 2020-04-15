@@ -1,0 +1,121 @@
+
+<html lang="en">
+
+<meta charset="UTF-8" />
+<title>my first page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<head>
+  <style>
+    .outerClass {
+      text-align: center;
+    }
+
+    .innerClass {
+      margin-top: 2%;
+      display: inline-block;
+      width: 400px;
+      border: 1px;
+      border-style: groove;
+      height: 450px;
+      margin-bottom: 10%;
+      border-radius: 8px;
+      background-color: rgb(241, 240, 240);
+    }
+
+    .inp {
+      margin: 5%;
+    }
+
+    .btn {
+      white-space: normal !important;
+    }
+
+   
+
+    .inp {
+      margin: 5%;
+    }
+
+    .btn {
+      white-space: normal !important;
+    }
+
+    body {
+      font-family: sans-serif;
+      /* background-image: url("https://images.unsplash.com/photo-1415025148099-17fe74102b28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60(21 kB)"); */
+      background-image: url('https://www.gethow.org/wp-content/uploads/2019/09/project.jpg');background-size:contain;background-repeat: no-repeat;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+nav{
+
+  display: none;
+}
+
+
+    header {
+      text-align: center;
+    }
+
+    nav {
+      background-color: indianred;
+    }
+
+    li {
+      text-align: center;
+    }
+
+    li {
+      background: khaki;
+    }
+  </style>
+
+
+
+</head>
+
+<body
+  >
+  <div >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="welcome" >Eternal Private School</a>
+          
+           
+          
+           
+            
+              <div class="btn-group" role="group">
+                <button style="background-color: rgb(138, 100, 173);" id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teachers
+                </button>
+                <div style="text-decoration:underline; background-color:mediumspringgreen;"  class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="insert">Insert a new trainer</a>
+                  <a class="dropdown-item" href="trainerlist">A list of our trainers per course</a>
+                </div>
+              </div>
+          
+             
+          
+             
+              </div>
+              
+          </nav>
+    </div>
+    </body>
+    </html>
